@@ -1,0 +1,284 @@
+/* @media(min-width:1200px) and (max-width:1399.98px){
+    .story_txt .section_header h2::before{
+       left: 32%;
+    }
+    .header h2::before {
+        right: 28%;
+    }
+    .header h2::after {
+        left: 28%;
+    }
+    .products_bg img {
+        width: 300px;
+    }
+    .error_img img{
+        width: 100%;
+    }
+    .error_left {
+        padding-right: 60px;
+    }
+    .error_right{
+        padding-left: 80px;
+    }
+} */
+
+@media(min-width:992px) and (max-width:1199.98px){
+    .banner_items {
+        height: 600px;
+    }
+    .banner_txt {
+        padding-top: 150px;
+    }
+    #home_banner{
+        height: 650px;
+    }
+    .banner_img img {
+        padding-top: 180px;
+        max-width: 470px;
+    }
+    .story_img img{
+        padding-top: 100px;
+        height: 600px;
+    }
+    .header h2::before {
+        right: 22%;
+    }
+    .header h2::after {
+        left: 22%;
+    }
+    .products_bg img {
+        width: 215px;
+    }
+    .week_content {
+        padding: 25px 0;
+    }
+    .events_header h2::before {
+        right: 20%;
+    }
+    .events_header h2::after {
+        left: 20%;
+    }
+    .week_count{
+        margin-top: 50px;
+        box-shadow: 0 0 50px 10px rgba(0, 0, 0, .4);
+    }
+    #week .section_header h2::before {
+        left: 55%;
+    }
+    #updates .section_header h2::before {
+        width: 50px;
+        left: 85%;
+    }
+    .updates_date {
+        padding: 8px 0;
+    }
+    .update_post h3 {
+        font-size: 18px;
+    }
+    .update_post p {
+        font-size: 14px;
+    }
+    .update_post a {
+        font-size: 18px;
+    }
+    .updates_date .post{
+        padding: 0 40px;
+    }
+    .content_icon i {
+        margin: 20px 0;
+    }
+    .footer_menu ul li {
+        padding-bottom: 30px;
+    }
+    .form input {
+        padding: 15px 0 15px 20px;
+    }
+    .form button {
+        padding: 7px 21px;
+    }
+    .footer_bg {
+        height: 600px;
+    }
+    .story_txt .section_header h2::before {
+        left: 90%;
+    }
+    .error_left {
+        padding-right: 40px;
+    }
+    .error_right{
+        padding-left: 30px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991.98px){
+    #menu ul{
+        background-color: rgba(0, 0, 0, .8);
+        width: 30%;
+    }
+    #menu ul li a{
+        padding: 15px 28px;
+    }
+    #updates .updates_header {
+        padding: 10px 20px;
+    }
+    .updates_items {
+        padding: 26px 15px 50px;
+    }
+    .update_post a {
+        padding-top: 10px;
+    }
+    .updates_date {
+        padding: 10px 0;
+        top: -23px;
+    }
+    .updates_date .post{
+        display: block;
+    }
+    .updates_date{
+        left: 50px;
+        right: 50px;
+        padding: 10px 0;
+    }
+    .story_img img{
+        padding-top: 120px;
+        height: 570px;
+    }
+    .section_header h2::before {
+        left: 68%;
+    }
+    .header h2::before {
+        right: 22%;
+        width: 80px;
+    }
+    .header h2::after {
+        left: 22%;
+        width: 80px;
+    }
+    .products_bg img {
+        width: 330px;
+    }
+    .week_count{
+        margin-top: 50px;
+        box-shadow: none;
+    }
+    #week .section_header h2::before {
+        left: 70%;
+        width: 80px;
+    }
+    #updates .section_header h2::before {
+        width: 60px;
+        left: 35%;
+    }
+    .events_header h2::before {
+        right: 18%;
+        width: 90px;
+    }
+    .events_header h2::after {
+        left: 18%;
+        width: 90px;
+    }
+    .events_border{
+        width: 200px;
+    }
+    .inner {
+        padding-top: 10px;
+    }
+    .events_img img{
+        width: 210px;
+    }
+    .inner .time {
+        padding: 5px 3px 25px 3px;
+        font-size: 14px;
+    }
+    .story_txt .section_header h2::before{
+       left: 65%;
+       width: 40px;
+    }
+    .story_bg img {
+        height: 200px;
+    }
+    #story {
+        padding-bottom: 50px;
+    }
+    #story_achievements {
+        padding-top: 50px;
+    }
+}
+
+@media(min-width:576px) and (max-width:767.98px){
+    #menu ul{
+        background-color: rgba(0, 0, 0, .8);
+        width: 40%;
+    }
+    /* #menu ul li a{
+        padding: 15px 28px;
+    }  */
+    .header h2::after,
+    .header h2::before{
+        width: 100px;
+    }
+    .header h2::after{
+        left: 10%;
+    }
+    .header h2::before{
+        right: 10%;
+    }
+    .products_bg img{
+        width: 240px;
+    }
+    .events_header h2::after,
+    .events_header h2::before{
+        width: 100px;
+    }
+    .events_header h2::after{
+        left: 7%;
+    }
+    .events_header h2::before{
+        right: 7%;
+    }
+    #week .section_header h2 {
+        padding-top: 15px;
+    }
+    .week_content {
+        padding-top: 0;
+    }
+    #updates .updates_header {
+        padding: 100px 20px ;
+    }
+    .updates_items {
+        padding: 50px 15px 50px;
+    }
+    .updates_date {
+        left: 80px;
+        right: 80px;
+        top: -31px;
+    }
+    .socail_icon ul li a i {
+        padding: 25px 5px;
+        border: none;
+        width: 40px;
+        height: 40px;
+    }
+    .story_bg img {
+        height: 200px;
+    }
+    .error_img img{
+        width: 100%;
+    }
+    .error_left {
+        padding: 15px 20px 0 0;
+    }
+    .error_right{
+        padding-left: 40px;
+    }
+}
+
+@media(max-width:575.98px){
+    #menu ul{
+        background-color: rgba(0, 0, 0, .8);
+        width: 80%;
+    }
+    #menu ul li a{
+        padding: 10px 28px;
+    }
+}
