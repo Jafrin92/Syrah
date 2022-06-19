@@ -25,3 +25,9 @@ $(window).scroll(function(){
 
 //wow js
 new WOW().init();
+
+//preloader
+    var preloader= document.getElementById('loader');
+    function myfunction(){
+        preloader.style.display="none";
+    }
